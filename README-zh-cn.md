@@ -13,8 +13,7 @@
 | Skill 名称 | 路径 | 说明 |
 | :--- | :--- | :--- |
 | **`everywhere`** | [`skills/everywhere`](./skills/everywhere/SKILL.md) | Everywhere 完整知识库：涵盖产品使用指南、全局设置与快捷键、自定义助手与模型提供商、Prompt Manager、Strategy Engine（`.strategy.md` 编写）、Skills v1 规范、内置插件与 MCP 工具、常见排障，以及 Everywhere 完整源码架构与开发规范。 |
-
-*（即将推出：`everywhere-mod`，专为 Everywhere Mod 与扩展开发提供 SDK、补丁与打包指南。）*
+| **`everywhere-mod`** | [`skills/everywhere-mod`](./skills/everywhere-mod/SKILL.md) | Everywhere Mod 模组官方开发指南：涵盖 `Everywhere.Modding.Sdk`、清单与仓库打包、可回收热卸载生命周期与 `ModResource` 规范、扩展实战（`ModChatPlugin`、设置 UI、导航页面与跨模组依赖），以及中英双语《模组生态与可接受使用政策》。 |
 
 ---
 
@@ -28,8 +27,9 @@
 # 交互式选择安装仓库中的 Skill
 npx skills add Sylinko/skills
 
-# 直接指定安装 everywhere Skill
+# 直接指定安装特定 Skill
 npx skills add Sylinko/skills --skill everywhere
+npx skills add Sylinko/skills --skill everywhere-mod
 ```
 
 ### 2. 在 Everywhere 客户端中使用

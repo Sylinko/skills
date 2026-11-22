@@ -13,8 +13,7 @@ These skills follow the open `SKILL.md` specification and work across **Everywhe
 | Skill | Path | Description |
 | :--- | :--- | :--- |
 | **`everywhere`** | [`skills/everywhere`](./skills/everywhere/SKILL.md) | Comprehensive knowledge base for Everywhere: product usage, settings, shortcuts, assistants, model providers, Prompt Manager, Strategy Engine (`.strategy.md`), Skills v1, built-in tools/MCP, troubleshooting, and full C#/.NET codebase architecture. |
-
-*(Coming soon: `everywhere-mod` for authoring and packaging Everywhere mods and plugins.)*
+| **`everywhere-mod`** | [`skills/everywhere-mod`](./skills/everywhere-mod/SKILL.md) | Official mod development guide for Everywhere: `Everywhere.Modding.Sdk`, manifest & repository packaging, collectible hot-unload lifecycle & `ModResource` rules, extension recipes (`ModChatPlugin`, settings UI, Avalonia pages, cross-mod APIs), and the bilingual Mod Ecosystem & Acceptable Use Policy. |
 
 ---
 
@@ -28,8 +27,9 @@ Install all skills or a specific skill into your local agent environment (`.agen
 # Install interactively from the repository
 npx skills add Sylinko/skills
 
-# Or install the 'everywhere' skill directly
+# Install specific skills directly
 npx skills add Sylinko/skills --skill everywhere
+npx skills add Sylinko/skills --skill everywhere-mod
 ```
 
 ### 2. Use directly inside Everywhere
