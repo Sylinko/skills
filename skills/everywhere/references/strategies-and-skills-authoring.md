@@ -46,7 +46,7 @@ from: skill://everywhere.my-skill           # Optional single inheritance source
 enabled: true                               # Default: true
 name: "Summarize selected files"            # Required (after 'from' resolution)
 description: "Summarize files selected in the file manager"
-icon: FileText                              # Lucide icon name
+icon: FileText                              # Tabler icon name
 priority: 80                                # Higher appears earlier (default: 0)
 
 when:                                       # Recommendation condition (default: true)

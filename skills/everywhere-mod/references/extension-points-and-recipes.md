@@ -16,7 +16,7 @@ using DynamicData;
 using Everywhere.Chat.Permissions;
 using Everywhere.Chat.Plugins;
 using Everywhere.I18N;
-using Lucide.Avalonia;
+using Tabler.Avalonia;
 
 namespace Alice.MyTools;
 
@@ -24,7 +24,7 @@ public sealed class MyChatPlugin : ModChatPlugin
 {
     public override IDynamicLocaleKey HeaderKey { get; } = new DirectLocaleKey("My Tool");
     public override IDynamicLocaleKey DescriptionKey { get; } = new DirectLocaleKey("Provides custom tool functions.");
-    public override LucideIconKind? Icon => LucideIconKind.Wrench;
+    public override TablerIconKind? Icon => TablerIconKind.Tool;
 
     public MyChatPlugin() : base("my_tool")
     {

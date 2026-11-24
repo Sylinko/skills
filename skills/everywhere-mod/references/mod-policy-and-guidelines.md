@@ -18,7 +18,7 @@ This document sets forth the licensing architecture, brand boundaries, security 
 1. **Modding SDK, Contracts, and Skills (`Apache-2.0`)**:
    - `Everywhere.Versioning`, `Everywhere.Modding.Abstractions`, `Everywhere.Modding.Packaging`, `Everywhere.Modding.Sdk`, the sample mod (`Everywhere.Mods.Sample`), and the `Sylinko/skills` knowledge base (`everywhere`, `everywhere-mod`) are licensed under the **Apache License, Version 2.0 (`Apache-2.0`)**.
 2. **Everywhere Host and First-Party Mods (`AGPL-3.0-only` + Commercial Licensing)**:
-   - The Everywhere host application (`Everywhere.Core` and platform host projects) and official first-party mods published by Sylinko (such as `everywhere.everything` and `everywhere.themes`) are licensed under **GNU Affero General Public License v3.0 (`AGPL-3.0-only`)**, with separate commercial licensing available from Sylinko Inc. (`contact@sylinko.com`).
+   - The Everywhere host application (`Everywhere.Core` and platform host projects) and official first-party mods published by Sylinko (such as `everywhere.everything` and `everywhere.themes`) are licensed under **GNU Affero General Public License v3.0 (`AGPL-3.0-only`)**, with separate commercial licensing available from Sylinko Inc. (`contact@sylinko.com`; see `LICENSE-COMMERCIAL.md` at the root of `Sylinko/Everywhere`).
 3. **Independent Third-Party Mods (Mod Interface Additional Permission)**:
    - Subject to the Mod Interface Additional Permission granted under Section 7 of GNU AGPLv3, an independent third-party mod that interacts with Everywhere solely through documented public mod loading and host service interfaces, does not modify or redistribute the Everywhere host itself, and respects Section 6 of this Policy may be distributed under **any license selected by its author** (including `Apache-2.0`, `MIT`, `GPL-3.0`, or proprietary/commercial terms).
    - Authors must declare their chosen license accurately via `<EverywhereModLicense>` and, where applicable, bundle the license text and third-party attribution notices via `<EverywhereModLicenseFile>` and `ThirdPartyFiles`.
@@ -82,7 +82,7 @@ Any mod that breaches the technical boundaries defined in this Section exceeds t
 1. **模组开发套件、契约库与技能文档（`Apache-2.0`）**：
    - `Everywhere.Versioning`、`Everywhere.Modding.Abstractions`、`Everywhere.Modding.Packaging`、`Everywhere.Modding.Sdk`、官方示例模组 `Everywhere.Mods.Sample` 以及 `Sylinko/skills` 技能知识库（`everywhere`、`everywhere-mod`）依据 **Apache License 2.0（`Apache-2.0`）** 授权。
 2. **Everywhere 宿主程序与官方第一方模组（`AGPL-3.0-only` 及商业许可）**：
-   - Everywhere 宿主应用程序（`Everywhere.Core` 及各平台宿主工程）与 Sylinko 发布的官方模组（例如 `everywhere.everything`、`everywhere.themes`）依据 **GNU Affero General Public License v3.0（`AGPL-3.0-only`）** 发布，同时由 Sylinko Inc.（`contact@sylinko.com`）提供单独的商业授权许可。
+   - Everywhere 宿主应用程序（`Everywhere.Core` 及各平台宿主工程）与 Sylinko 发布的官方模组（例如 `everywhere.everything`、`everywhere.themes`）依据 **GNU Affero General Public License v3.0（`AGPL-3.0-only`）** 发布，同时由 Sylinko Inc.（`contact@sylinko.com`）提供单独的商业授权许可（详见 `Sylinko/Everywhere` 仓库根目录的 `LICENSE-COMMERCIAL.md`）。
 3. **独立第三方模组（模组接口附加许可）**：
    - 在符合 GNU AGPLv3 第 7 条下《模组接口附加许可》的前提下，凡仅通过已公开的模组加载与宿主服务接口与 Everywhere 交互、不修改或再分发 Everywhere 宿主本体，且遵守本政策第六条的独立第三方模组，作者可自主选择 **任意许可协议**（包括 `Apache-2.0`、`MIT`、`GPL-3.0` 等开源协议或专有商业协议）进行分发。
    - 作者应当通过 `<EverywhereModLicense>` 如实声明许可标识，并在适用时通过 `<EverywhereModLicenseFile>` 与 `ThirdPartyFiles` 随包附带许可文本及第三方归属声明。

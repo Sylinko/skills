@@ -6,7 +6,7 @@ Everywhere separates conversational personas (**Custom Assistants**) from backgr
 
 ### Custom Assistants (`Settings.Model.CustomAssistants`)
 Users can create and switch between multiple Custom Assistants (`CustomAssistant`). Each assistant configures:
-- **Identity**: `Id` (GUID v7), `Name`, `Description`, and `Icon` (Lucide icon or colored icon).
+- **Identity**: `Id` (GUID v7), `Name`, `Description`, and `Icon` (Tabler icon or colored icon).
 - **System Prompt Reference** (`SystemPromptId`): References a prompt managed in **Prompt Manager** (`Guid.Empty` uses the built-in default system prompt; non-empty GUIDs reference rows in `prompt.db`).
 - **Model Configuration**: Provider, endpoint, API key reference, model ID, temperature/topP, max tokens, and **Reasoning Effort** (`ReasoningEffortValues` such as `none`, `minimal`, `low`, `medium`, `high`, `xhigh` when supported by the model).
 - **Tool Call Policy**:
